@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/loginCard"
+    app:cardCornerRadius="@dimen/loginCardRadius"
+    android:layout_gravity="center"
+    android:background="@drawable/background"
+    tools:context=".ModifyActivity">
+
+    <LinearLayout
+        style="@style/linearParent"
+        android:layout_width="393dp"
+        android:layout_height="722dp"
+
+        android:layout_gravity="center"
+        android:padding="@dimen/loginViewsMargin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/headerTextPrimary"
+                android:text="@string/modification" />
+
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="550dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/textInputPrenomM"
+                    style="@style/parent">
+
+                    <EditText
+                        android:id="@+id/editTextPrenomM"
+                        style="@style/modifiedEditText"
+                        android:hint="@string/prenom"
+                        android:layout_marginTop="90dp"
+                        android:inputType="textPersonName"
+                        android:maxLines="1" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/textInputNomM"
+                    style="@style/parent"
+                    android:layout_marginTop="@dimen/loginViewsMargin">
+
+                    <EditText
+                        android:id="@+id/editTextNomM"
+                        style="@style/modifiedEditText"
+                        android:hint="@string/nom"
+                        android:inputType="textPersonName"
+                        android:maxLines="1" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/textInputAgeM"
+                    style="@style/parent"
+                    android:layout_marginTop="@dimen/loginViewsMargin">
+
+                    <EditText
+                        android:id="@+id/editTextAgeM"
+                        style="@style/modifiedEditText"
+                        android:hint="@string/age"
+                        android:inputType="number"
+                        android:maxLines="1" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/textInputEmailM"
+                    style="@style/parent"
+                    android:layout_marginTop="@dimen/loginViewsMargin">
+
+                    <EditText
+                        android:id="@+id/editTextEmailM"
+                        style="@style/modifiedEditText"
+                        android:hint="@string/email"
+                        android:inputType="textEmailAddress"
+                        android:maxLines="1" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/textInputTelephoneM"
+                    style="@style/parent"
+                    android:layout_marginTop="@dimen/loginViewsMargin">
+
+                    <EditText
+                        android:id="@+id/editTextTelephoneM"
+                        style="@style/modifiedEditText"
+                        android:hint="@string/t_l_phone"
+                        android:inputType="text|phone"
+                        android:maxLines="1" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/textInputAdresseM"
+                    style="@style/parent"
+                    android:layout_marginTop="@dimen/loginViewsMargin">
+
+                    <EditText
+                        android:id="@+id/editTextAdresseM"
+                        style="@style/modifiedEditText"
+                        android:hint="@string/adresse"
+                        android:inputType="text"
+                        android:maxLines="1" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/textInputSpecialiteM"
+                    style="@style/parent"
+                    android:layout_marginTop="@dimen/loginViewsMargin">
+
+                    <EditText
+                        android:id="@+id/editTextSpecialiteM"
+                        style="@style/modifiedEditText"
+                        android:hint="@string/sp_cialit"
+                        android:inputType="text"
+                        android:maxLines="2" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/textInputNiveauM"
+                    style="@style/parent"
+                    android:layout_marginTop="@dimen/loginViewsMargin">
+
+                    <EditText
+                        android:id="@+id/editTextNiveauM"
+                        style="@style/modifiedEditText"
+                        android:hint="@string/niveau_d_tude"
+                        android:inputType="text"
+                        android:maxLines="2" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/textInputExperienceM"
+                    style="@style/parent"
+                    android:layout_marginTop="@dimen/loginViewsMargin"
+                    android:layout_marginBottom="70dp">
+
+                    <EditText
+                        android:id="@+id/editTextExperienceM"
+                        style="@style/modifiedEditText"
+                        android:hint="@string/exp_rience_professionnelle"
+                        android:inputType="textMultiLine" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/modifyButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/loginViewsMargin"
+                android:layout_marginRight="5dp"
+                android:text="@string/modifier" />
+
+            <Button
+                android:id="@+id/backButtonM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="@dimen/loginViewsMargin"
+                android:text="@string/retour" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

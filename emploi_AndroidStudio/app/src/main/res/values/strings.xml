@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Gestionnaire de CV</string>
+    <string name="ajouter_un_cv">Ajouter un CV</string>
+    <string name="enregistrement_de_cv">Enregistrement de CV</string>
+    <string name="prenom">Prenom</string>
+    <string name="email">Email</string>
+    <string name="nom">Nom</string>
+    <string name="t_l_phone">Téléphone</string>
+    <string name="adresse">Adresse</string>
+    <string name="age">Age</string>
+    <string name="sp_cialit">Spécialité</string>
+    <string name="niveau_d_tude">Niveau d\'étude</string>
+    <string name="exp_rience_professionnelle">Expérience professionnelle</string>
+    <string name="retour">RETOUR</string>
+    <string name="d_tails">Détails</string>
+    <string name="liste_des_cvs">Liste des CVs</string>
+    <string name="supprimer">SUPPRIMER</string>
+    <string name="text">  Cette application mobile, conçue par\n \t\t\t\t\t\t\t\t\t\t\t Amsata DIAGNE,\nrepond à la thématique suivante :\n   ¤ faciliter à un demandeur d\'emploi le fait de voir les offres d\'emplois postées dans l\'application mobile grâce à une interface d’accès.\n\n   L\'utilisateur aura la possibilité de voir la liste des CVs, les détails d\'un CV, d\'ajouter un CV ou même d\'en supprimer un de la base de données.</string>
+    <string name="enregistrer">Enregistrer</string>
+    <string name="modifier">Modifier</string>
+    <string name="modification">Modification</string>
+</resources>
